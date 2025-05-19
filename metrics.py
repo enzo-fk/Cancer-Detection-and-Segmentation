@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import os
 import labelme
-from pre_detection import *
-from pre_segmentation import *
+from best_det import *
+from best_seg import *
 import matplotlib.pyplot as plt
 
 class MetricsRaiza:
